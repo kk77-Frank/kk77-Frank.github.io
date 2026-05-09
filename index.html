@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="张暄奇 Frank Zhang 的个人学术主页，关注脑科学、电生理信号、深度学习与医学人工智能。">
+  <title>张暄奇 | Frank Zhang</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "张暄奇",
+      "alternateName": "Frank Zhang",
+      "email": "mailto:meetfrankzhang@126.com",
+      "telephone": "+86-13084427249",
+      "url": "https://kk77-frank.github.io/",
+      "sameAs": ["https://github.com/kk77-Frank"],
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "西南医科大学"
+      },
+      "knowsAbout": ["Brain Science", "Electrophysiological Signals", "Deep Learning", "Medical AI"]
+    }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="返回首页">
+      <span class="brand-mark">FZ</span>
+      <span>Frank Zhang</span>
+    </a>
+    <nav class="site-nav" aria-label="主导航">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#honors">Honors</a>
+      <a href="#education">Education</a>
+    </nav>
+  </header>
+
+  <div class="page-shell" id="top">
+    <aside class="profile-panel" aria-label="个人信息">
+      <div class="avatar" aria-hidden="true">张</div>
+      <p class="eyebrow">Intelligent Medical Engineering</p>
+      <h1>张暄奇<br><span>Frank Zhang</span></h1>
+      <p class="profile-summary">
+        智能医学工程学生，研究方向聚焦脑科学、电生理信号、深度学习与临床预测模型。
+      </p>
+
+      <div class="contact-list">
+        <a href="mailto:meetfrankzhang@126.com">meetfrankzhang@126.com</a>
+        <a href="tel:+8613084427249">+86 130 8442 7249</a>
+        <a href="https://github.com/kk77-Frank" target="_blank" rel="noreferrer">github.com/kk77-Frank</a>
+      </div>
+
+      <div class="action-row">
+        <a class="button primary" href="assets/Frank_Zhang_CV.pdf" download>Download CV</a>
+        <a class="button ghost" href="mailto:meetfrankzhang@126.com">Email</a>
+      </div>
+
+      <dl class="quick-facts">
+        <div>
+          <dt>Rank</dt>
+          <dd>2 / 65</dd>
+        </div>
+        <div>
+          <dt>CET-6</dt>
+          <dd>480</dd>
+        </div>
+        <div>
+          <dt>Awards</dt>
+          <dd>15+</dd>
+        </div>
+      </dl>
+    </aside>
+
+    <main id="main" class="content">
+      <section class="intro-section" id="about">
+        <div class="intro-copy">
+          <p class="eyebrow">Personal Homepage</p>
+          <h2>面向临床问题的医学 AI 与电生理建模</h2>
+          <p>
+            我关注医疗时序数据中的可解释建模问题，尤其是 ECG、EEG 等电生理信号在术后谵妄预测、癫痫发作预测和慢病随访分型中的应用。当前工作围绕生物标志物发现、患者异质性建模、物理约束深度学习与因果推断展开。
+          </p>
+        </div>
+
+        <div class="signal-panel" aria-label="电生理信号可视化">
+          <canvas id="signalCanvas" width="760" height="440"></canvas>
+          <div class="signal-caption">
+            <span>ECG / EEG</span>
+            <span>Clinical Prediction</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="关键数据">
+        <div>
+          <strong>4</strong>
+          <span>Research projects</span>
+        </div>
+        <div>
+          <strong>2</strong>
+          <span>Manuscripts under review</span>
+        </div>
+        <div>
+          <strong>5</strong>
+          <span>National awards</span>
+        </div>
+        <div>
+          <strong>10</strong>
+          <span>Provincial awards</span>
+        </div>
+      </section>
+
+      <section class="section" id="research">
+        <div class="section-heading">
+          <p class="eyebrow">Research</p>
+          <h2>科研经历</h2>
+        </div>
+
+        <article class="research-card">
+          <div class="card-meta">First Author · Journal of Clinical Anesthesia · IF 5.1 · 二审 RRC</div>
+          <h3>基于术前 ECG 的术后谵妄预测模型研究</h3>
+          <p>
+            针对术后谵妄识别消耗医疗资源的问题，基于术前 12 导联 ECG 构建 XGBoost 预测模型，并关注导联间波峰延迟特征对心室传递的影响，探索术前生物标志物用于临床预测。
+          </p>
+          <ul class="tag-list">
+            <li>12-lead ECG</li>
+            <li>XGBoost</li>
+            <li>Biomarker discovery</li>
+          </ul>
+        </article>
+
+        <article class="research-card">
+          <div class="card-meta">First Author · npj digital public health · Peer Review</div>
+          <h3>基于高血压随访轨迹的无监督表型聚类及因果推断</h3>
+          <p>
+            基于百万级电子病历，将纵向血压轨迹映射为时序波动序列并融合静态特征，设计多模态高血压随访轨迹亚型编码器，用于刻画患者异质性并分析关键因素对血压控制的影响。
+          </p>
+          <ul class="tag-list">
+            <li>EHR</li>
+            <li>Unsupervised phenotyping</li>
+            <li>Causal inference</li>
+          </ul>
+        </article>
+
+        <article class="research-card">
+          <div class="card-meta">First Author · Ongoing</div>
+          <h3>基于哈密顿动力学守恒破缺的癫痫发作预测模型</h3>
+          <p>
+            为提升癫痫发作预测模型的可解释性，提出基于哈密顿动力学守恒结构的物理约束模型，在辛流形潜空间中学习脑电信号的能量演化规律，并以能量守恒破缺作为监督信号识别发作前期系统失稳。
+          </p>
+          <ul class="tag-list">
+            <li>EEG</li>
+            <li>Hamiltonian dynamics</li>
+            <li>Physics-informed learning</li>
+          </ul>
+        </article>
+
+        <article class="research-card">
+          <div class="card-meta">First Author · Ongoing · Patent drafting</div>
+          <h3>面向单导联癫痫预测的多导联师生模型</h3>
+          <p>
+            针对多导联设备不利于可穿戴部署的问题，设计多导联引导的师生网络，使单导联模型学习并重建多导联信号中的空间拓扑信息，以因果推断机制强化导联间依赖关系的监督。
+          </p>
+          <ul class="tag-list">
+            <li>Teacher-student model</li>
+            <li>Wearable AI</li>
+            <li>Topology reconstruction</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section two-column" id="publications">
+        <div class="section-heading">
+          <p class="eyebrow">Publications</p>
+          <h2>论文与进行中工作</h2>
+        </div>
+
+        <div class="publication-list">
+          <article>
+            <span>Under Review</span>
+            <h3>Preoperative ECG-based prediction model for postoperative delirium</h3>
+            <p>First author, Journal of Clinical Anesthesia, IF 5.1, 二审 RRC.</p>
+          </article>
+          <article>
+            <span>Peer Review</span>
+            <h3>Unsupervised phenotyping and causal inference of hypertension follow-up trajectories</h3>
+            <p>First author, npj digital public health.</p>
+          </article>
+          <article>
+            <span>Ongoing</span>
+            <h3>Hamiltonian conservation-breaking model for epileptic seizure prediction</h3>
+            <p>Physics-constrained EEG representation learning for seizure prediction.</p>
+          </article>
+          <article>
+            <span>Ongoing</span>
+            <h3>Single-lead seizure prediction via multi-lead teacher-student learning</h3>
+            <p>Implicit reconstruction of inter-channel topology for wearable EEG deployment.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section" id="honors">
+        <div>
+          <p class="eyebrow">Honors</p>
+          <h2>竞赛与荣誉</h2>
+        </div>
+        <ul class="honor-list">
+          <li>
+            <strong>全国生物医学工程创新设计大赛</strong>
+            <span>三等奖，项目负责人</span>
+          </li>
+          <li>
+            <strong>全国挑战杯学术竞赛人工智能专项</strong>
+            <span>三等奖，项目负责人</span>
+          </li>
+          <li>
+            <strong>计算机设计大赛</strong>
+            <span>四川省一等奖，项目负责人</span>
+          </li>
+          <li>
+            <strong>其他奖项</strong>
+            <span>5 项国家级奖项，10 项省级奖项</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section education-section" id="education">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2>教育背景</h2>
+        </div>
+
+        <div class="education-block">
+          <div>
+            <h3>西南医科大学</h3>
+            <p>智能医学工程 · 研究方向：脑科学、电生理信号、深度学习</p>
+          </div>
+          <div class="education-stats">
+            <span>综合排名 2/65</span>
+            <span>校足球队队长</span>
+          </div>
+        </div>
+
+        <div class="course-grid" aria-label="核心课程">
+          <span>机器学习 92</span>
+          <span>深度学习 95.5</span>
+          <span>生物医学传感器 98</span>
+          <span>医学图像处理 93</span>
+          <span>数字信号处理 87</span>
+          <span>高等数学 90</span>
+          <span>操作系统 88</span>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <span>© <span id="currentYear"></span> Frank Zhang</span>
+    <a href="https://github.com/kk77-Frank" target="_blank" rel="noreferrer">GitHub</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
