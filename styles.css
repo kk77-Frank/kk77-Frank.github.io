@@ -197,6 +197,17 @@ a:hover {
   list-style: none;
 }
 
+.award-year {
+  margin-bottom: 18px;
+}
+
+.award-year h3 {
+  margin: 0 0 4px;
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
 .news-list li {
   display: grid;
   grid-template-columns: 72px minmax(0, 1fr);
