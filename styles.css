@@ -272,6 +272,10 @@ a:hover {
   margin-top: 2px;
 }
 
+.education-item + .education-item {
+  margin-top: 16px;
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;
